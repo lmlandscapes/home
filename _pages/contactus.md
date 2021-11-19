@@ -24,14 +24,14 @@ comments: false
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<h5><i class="fab fa-envelope"></i> Email</h5> <h3> <a href="mailto:lloyd-1994@hotmail.com">Email</a> </h3>
-<h5><i class="fab fa-phone"></i> Phone <h5> <h3> 07960 207730 </h3>
-<h5><i class="fab fa-facebook"></i> <h5> <h3> <a href="{{ site.fburl }}" > </a> </h3>
-<h5><i class="fab fa-instagram"></i> <h5> <h3> <a href="{{ site.instaurl }}" > </a> </h3>
+<h5> <i class="fab fa-envelope"></i> Email </h5> <h6> <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </h6>
+<h5> <i class="fab fa-phone"></i> Phone <h5> <h6> 07960 207730 </h6>
+<h5> <i class="fab fa-facebook"></i> <h5> <h6> <a href="{{ site.fburl }}" > Facebook </a> </h6>
+<h5> <i class="fab fa-instagram"></i> <h5> <h6> <a href="{{ site.instaurl }}" > Instagram </a> </h6>
 
 
-<h5>Email</h5> <h3> <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </h3>
-<h5>Phone Number</h5> <h3>07960 207730 </h3>
+<!-- <h5>Email</h5> <h3> <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </h3>
+<h5>Phone Number</h5> <h3>07960 207730 </h3> -->
 
 <!--
 <p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/kirankumargosu/lmlandscapes">Mediumish <i class="fab fa-github"></i></a>.</p>
