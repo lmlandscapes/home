@@ -25,10 +25,10 @@ comments: false
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<p> <i class="fas fa-envelope"></i> Email <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </p>
-<p> <i class="fab fa-phone"></i> Phone <p> <h6> 07960 207730 </h6>
-<p> <i class="fab fa-facebook"></i> <p> <h6> <a href="{{ site.fburl }}" > Facebook </a> </h6>
-<p> <i class="fab fa-instagram"></i> <p> <h6> <a href="{{ site.instaurl }}" > Instagram </a> </h6>
+<p> <i class="fas fa-envelope"></i> <a href="mailto:lloyd-1994@hotmail.com">Email</a> </p>
+<p> <i class="fas fa-phone"></i> Phone: 07960 207730 </p>
+<p> <i class="fab fa-facebook"></i> <a href="{{ site.fburl }}" > Facebook </a> </p>
+<p> <i class="fab fa-instagram"></i> <a href="{{ site.instaurl }}" > Instagram </a> </p>
 
 
 
