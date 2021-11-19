@@ -26,8 +26,8 @@ comments: false
 <div class="sticky-top sticky-top-80">
 <h5><i class="fab fa-envelope"></i> Email</h5> <h3> <a href="mailto:lloyd-1994@hotmail.com">Email</a> </h3>
 <h5><i class="fab fa-phone"></i> Phone <h5> <h3> 07960 207730 </h3>
-<h5><i class="fab fa-facebook"></i> Phone <h5> <h3> <a href="{{ site.fburl }}" > </a> </h3>
-<h5><i class="fab fa-instagram"></i> Phone <h5> <h3> <a href="{{ site.instaurl }}" > </a> </h3>
+<h5><i class="fab fa-facebook"></i> <h5> <h3> <a href="{{ site.fburl }}" > </a> </h3>
+<h5><i class="fab fa-instagram"></i> <h5> <h3> <a href="{{ site.instaurl }}" > </a> </h3>
 
 
 <h5>Email</h5> <h3> <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </h3>
