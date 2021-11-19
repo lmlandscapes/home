@@ -1,6 +1,6 @@
 ---
 layout: page
-title: L.M Landscapes & Property Maintenance 
+title: Contact Us
 permalink: /contactus
 comments: false
 ---
