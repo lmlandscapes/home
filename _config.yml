@@ -7,6 +7,7 @@ favicon: 'assets/images/favicon.ico'
 baseurl: /home
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
+homepageurl: "https://lmlandscapes.github.io/home/"
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
