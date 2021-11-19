@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: L.M Landscapes & Property Maintenance 
 permalink: /about
 comments: true
 ---
