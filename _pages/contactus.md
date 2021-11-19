@@ -8,13 +8,13 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Feel free to contact us.</p>
+<p>We are a bunch of self-motivated people with aa rich aesthetic sense. If you are looking for your property maintenance, you are at the right place. Feel free to contact us.</p>
 
 <!-- <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p> -->
 
 <!-- <h4>Documentation</h4> -->
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<!-- <p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p> -->
 
 <!-- <h4>Questions or bug reports?</h4> -->
 
@@ -25,7 +25,7 @@ comments: false
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<p> <i class="fab fa-envelope"></i> Email </p> <h6> <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </h6>
+<p> <i class="fas fa-envelope"></i> Email <a href="mailto:lloyd-1994@hotmail.com">Click here</a> </p>
 <p> <i class="fab fa-phone"></i> Phone <p> <h6> 07960 207730 </h6>
 <p> <i class="fab fa-facebook"></i> <p> <h6> <a href="{{ site.fburl }}" > Facebook </a> </h6>
 <p> <i class="fab fa-instagram"></i> <p> <h6> <a href="{{ site.instaurl }}" > Instagram </a> </h6>
