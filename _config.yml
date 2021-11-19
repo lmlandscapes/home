@@ -3,7 +3,7 @@ name: "L.M Landscapes"
 title: "L.M Landscapes"
 description: "L.M Landscapes & Property Maintenance"
 logo: 'assets/images/logolm.png'
-favicon: 'assets/images/logolm.png'
+favicon: 'assets/images/favicon.png'
 baseurl: /home
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
