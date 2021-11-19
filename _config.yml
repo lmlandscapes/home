@@ -11,6 +11,7 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 fburl: "https://www.facebook.com/lloydsLandscape/"
+instaurl: "https://www.instagram.com/l.m_landscapes/"
 
 # Authors
 authors:
