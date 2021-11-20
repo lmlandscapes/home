@@ -8,7 +8,10 @@ title: Home
 <!-- Slideshow
 ================================================== -->
 <section class="slide-show">
-    <div class="row">
+    <div class="section-title">
+        <h2><span>Gallery</span></h2>
+    </div>
+    <div class="row"> 
         {% for slide in site.slides %}
         <article class="slide">
             <iframe class="slideshow-iframe" src="{{ site.github.url }}{{ slide.url }}"></iframe>
