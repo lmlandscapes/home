@@ -17,6 +17,13 @@ developer: "Gosu"
 
 # Authors
 authors:
+  lloyd:
+    name: Lloyd
+    display_name: Lloyd
+    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: lloyd-1994@hotmail.com
+    web: https://www.facebook.com/miles.lloyd.3/
+    description: "I am Lloyd, founder of L.M Landscapes."
   sal:
     name: Sal
     display_name: Sal
