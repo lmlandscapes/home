@@ -6,10 +6,13 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/8.jpg
 featured: true
 hidden: true
-rating: 5.0
+rating: 5
 ---
 
 We do end to end garden maintenance. We do this, we do that, we do everything. We are the masters od gardening. We are super heros.
+
+
+
 <!-- Director Roland Suso Richter's enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney's own play "Point of Death" - a title that gave away the film's entire plot twist premise.
 
 As in many similar films, such as Jacob's Ladder (1990), Soul Survivors (2001), and The Butterfly Effect (2004), events and people were thoroughly distorted and confused because the protagonist was at the point of death. The tagline was misleading:
