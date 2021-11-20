@@ -13,7 +13,12 @@ title: Home
     </div>
     <div class="row"> 
         {% for slide in site.slides %}
-            <article class="slide">
+            {% include slideshow.html %}
+        {% endfor %}
+    </div>
+</section>
+
+            <!-- <article class="slide">
                 <iframe class="slideshow-iframe" src="{{ site.github.url }}{{ slide.url }}"></iframe>
                 <div class="sub-slideshow">
                     <h1>{{ slide.title }}</h1>
@@ -27,10 +32,8 @@ title: Home
                             spellcheck="false"></input>
                     </div>
                 </div>
-            </article>
-        {% endfor %}
-    </div>
-</section>
+            </article> -->
+
 
 <!-- Featured
 ================================================== -->
