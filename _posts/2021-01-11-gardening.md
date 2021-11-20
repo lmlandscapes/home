@@ -3,10 +3,10 @@ layout: post
 title:  "Gardening"
 author: lloyd
 categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+image: assets/images/8.jpg
 featured: true
 hidden: true
-rating: 4.5
+rating: 5.0
 ---
 
 We do end to end garden maintenance. We do this, we do that, we do everything. We are the masters od gardening. We are super heros.

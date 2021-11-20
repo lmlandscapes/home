@@ -3,7 +3,7 @@ layout: post
 title:  "Property Maintenance"
 author: lloyd
 categories: [ Jekyll, tutorial ]
-image: assets/images/12.jpg
+image: assets/images/10.jpg
 featured: true
 hidden: true
 rating: 4.5
