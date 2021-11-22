@@ -4,7 +4,7 @@ title: Home
 image_sliders:
   - slider2
 ---
-
+{% include slider.html selector="slider2" %}
 {% if page.url == "/" %}
 
 <!-- Slideshow
