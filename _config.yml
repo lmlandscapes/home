@@ -5,7 +5,7 @@ description: "L.M Landscapes & Property Maintenance"
 logo: 'assets/images/logolm.png'
 logofooter: 'assets/images/logolmfooter.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: /home
+baseurl: "/home"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 homepageurl: "https://lmlandscapes.github.io/home/"
