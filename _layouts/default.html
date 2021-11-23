@@ -27,7 +27,7 @@
 
 </head>
 {% include slider_styles.html %}
-{% include slider_scripts.html %}
+
 {% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
 <script>
@@ -218,6 +218,6 @@ ga('send', 'pageview');
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
-
+{% include slider_scripts.html %}
 </body>
 </html>
