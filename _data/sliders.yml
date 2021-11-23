@@ -29,16 +29,15 @@
   captions: true
   images:
     - src: /assets/slideshow/1.jpg
-      title: Balloons!
-      alt: This slider has caption titles
+      title: Landscaping!
     - data-src: /assets/slideshow/2.jpg
-      title: This slider uses the fade effect
-      alt: Instead of the default slide effect
+      title: Mowing
     - data-src: /assets/slideshow/3.jpg
-      data-src-2x: /assets/slideshow/3@2x.jpg
+      title: Patio
     - src: /assets/slideshow/4.jpg
-      title: Last image had no caption!
-      alt: Also, this image has no link
+      title: Patio
+    - src: /assets/slideshow/5.jpg
+      title: Gardening
   settings:
     height: "'auto'"
     effect: "'fade'"
