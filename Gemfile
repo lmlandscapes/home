@@ -8,6 +8,10 @@ source "https://rubygems.org"
 #
 
 # If you have any plugins, put them here!
+gem "jekyll", "3.5.1"
+
+gem "minima", "~> 2.0"
+
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
     gem 'jekyll-feed'
@@ -18,3 +22,5 @@ group :jekyll_plugins do
     gem 'kramdown'
     gem 'rouge'
 end
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
