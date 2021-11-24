@@ -9,43 +9,69 @@ comments: false
 <div class="col-md-8 pr-5">
 
 <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
-  <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">Name</label>
-    <div class="col-8">
-      <div class="input-group">
-        <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="email" class="col-4 col-form-label">E-mail address</label>
-    <div class="col-8">
-      <div class="input-group">
-        <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="postcode" class="col-4 col-form-label">Post Code</label>
-    <div class="col-8">
-      <div class="input-group">
-        <input id="postcode" name="postcode" placeholder="Your Post Code" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="message" class="col-4 col-form-label">Message</label>
-    <div class="col-8">
-      <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Send</button>
-    </div>
-  </div>
-</form>
 
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">What type of job are you looking for?</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="jobtype" name="jobtype" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Tell us more about your job</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="jobdetail" name="jobdetail" type="message" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Post Code</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="postcode" name="postcode" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">First Name</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="firstname" name="firstname" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Last Name</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="lastname" name="lastname" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Last Name</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="lastname" name="lastname" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="name" class="col-4 col-form-label">Phone Number</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="phone" name="phonee" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
 
 </div>
 
