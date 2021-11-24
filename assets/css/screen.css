@@ -84,14 +84,14 @@ section.recent-posts {
 }
 
 .call-us-button {
-    min-height: 60vh;
+    min-height: 10vh;
     background-color:limegreen;
     color: lightgoldenrodyellow;
     text-align: center
 }
 
 .request-quote-button {
-    min-height: 60vh;
+    min-height: 10vh;
     background-color: indianred;
     color: lightyellow;
     text-align: center
