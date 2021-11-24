@@ -11,20 +11,9 @@ comments: false
 <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
 
   <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">What type of job are you looking for?</label>
-    <div class="col-8">
-      <div class="input-group">
-        <input id="jobtype" name="jobtype" type="text" required="required" class="form-control">
-      </div>
-    </div>
-  </div>
-
-  <div class="form-group row">
     <label for="name" class="col-4 col-form-label">Tell us more about your job</label>
     <div class="col-8">
-      <div class="input-group">
-        <input id="jobdetail" name="jobdetail" type="message" required="required" class="form-control">
-      </div>
+      <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
     </div>
   </div>
 
@@ -72,6 +61,14 @@ comments: false
       </div>
     </div>
   </div>
+
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Send</button>
+    </div>
+  </div>
+</form>
+
 
 </div>
 
