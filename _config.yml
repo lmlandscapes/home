@@ -5,6 +5,7 @@ description: "L.M Landscapes & Property Maintenance"
 logo: 'assets/images/logolm.png'
 logoheader: 'assets/images/logolmheader.png'
 logofooter: 'assets/images/logolmfooter.png'
+logofreequote: 'assets/images/freequote.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: "/home"
 google_analytics: 'UA-46278016-1'
