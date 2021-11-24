@@ -28,15 +28,15 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/slideshow/B1.png
+    - src: /assets/slideshow/B1.jpg
       title: Landscaping!
-    - data-src: /assets/slideshow/B2.png
+    - data-src: /assets/slideshow/B2.jpg
       title: Mowing
-    - data-src: /assets/slideshow/B3.png
+    - data-src: /assets/slideshow/B3.jpg
       title: Patio
-    - src: /assets/slideshow/B4.png
+    - src: /assets/slideshow/B4.jpg
       title: Patio
-    - src: /assets/slideshow/B5.png
+    - src: /assets/slideshow/B5.jpg
       title: Patio
   settings:
     height: "'auto'"
