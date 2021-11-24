@@ -10,7 +10,7 @@ License: https://www.wowthemes.net/freebies-license/
 .mainheading {
     padding: 1rem 0rem;
 }
-
+/* 
 a {
     color: #00ab6b;
     transition: all 0.2s;
@@ -19,7 +19,7 @@ a {
 a:hover {
     color: #038252;
     text-decoration: none;
-}
+} */
 
 pre {
     -moz-box-sizing: border-box;
