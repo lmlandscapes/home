@@ -10,7 +10,7 @@ comments: false
 
 <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">Job Summary</label>
     <div class="col-8">
       <div class="input-group">
