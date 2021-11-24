@@ -6,12 +6,12 @@ comments: false
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<div class="col-md-10 pr-5">
 
 <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
 
   <div class="form-group row">
-    <label for="name" class="col-4 col-form-label">What type of job are you looking for?</label>
+    <label for="name" class="col-4 col-form-label">Job Summary</label>
     <div class="col-8">
       <div class="input-group">
         <input id="jobtype" name="jobtype" type="text" required="required" class="form-control">
@@ -81,7 +81,7 @@ comments: false
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-2">
 
 <div class="sticky-top sticky-top-80" style="background-color: indianred">
 <p> <i class="fas fa-envelope"></i> <a href="mailto:{{site.emailid}}">Email</a> </p>
