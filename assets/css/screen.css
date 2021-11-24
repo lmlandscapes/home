@@ -312,7 +312,7 @@ span.post-read-more a:hover {
     color: rgba(54, 161, 35, 0.8);
     /* font-size: 0.8rem; */
     position: absolute;
-    left: 50%;
+    left: auto;
     top: auto;
     /* -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); */
