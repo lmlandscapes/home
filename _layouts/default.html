@@ -127,12 +127,18 @@ ga('send', 'pageview');
         </div>
     </div>
     <div class = "row justify-content-between">
-        <div class="col-xs-6 col-sm-6 col-md-6 call-us-button">
+        <div class="col-xs-3 col-sm-3 col-md-3 call-us-button">
                 <a href="tel:{{ site.contactnumber }}"><i class="fas fa-phone"></i> Call Us</a>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 request-quote-button">
+        <div class="col-xs-3 col-sm-3 col-md-3 request-quote-button">
                 <a href="{{ site.baseurl }}/freequote"><i class="fas fa-receipt"></i> Request for a Quote</a>
         </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="https://wa.me/{{ site.whatsappnumber }}?text={{ site.whatsappdefaultext }}"><i class="fas fa-whatsapp"></i></a>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3">
+            <a href="m.me/{{ site.fbpageid }}"><i class="fas fa-facebook-messenger"></i></a>
+    </div>
     </div>
 
     <!-- <div class="container-fluid"> -->

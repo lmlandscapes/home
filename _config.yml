@@ -10,6 +10,8 @@ logocallnow: 'assets/images/callnow.png'
 favicon: 'assets/images/favicon.ico'
 emailid: 'lloyd-1994@hotmail.com'
 contactnumber: '07960 207730'
+whatsappnumber: '447960207730'
+whatsappdefaultext: "Hi, I need help with my property. Can you please help"
 baseurl: "/home"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
@@ -18,6 +20,7 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 fburl: "https://www.facebook.com/lloydsLandscape/"
+fbpageid: "lloydsLandscape"
 instaurl: "https://www.instagram.com/l.m_landscapes/"
 contactusendpointreference: "4eeb49f5105230c2c8debedc1dc0b4e36e0d7789"
 developer: "Gosu"
