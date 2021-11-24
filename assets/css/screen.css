@@ -314,6 +314,11 @@ span.post-read-more a:hover {
     text-align: right;
 }
 
+.mainheading h5.ticks {
+    color: rgba(54, 161, 35, 0.8);
+    /* font-size: 0.8rem; */
+    text-align: right;
+}
 
 .mainheading h1.posttitle {
     font-weight: 700;
