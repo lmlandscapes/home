@@ -26,7 +26,7 @@ comments: false
 
 <div class="sticky-top sticky-top-80">
 <p> <i class="fas fa-envelope"></i> <a href="mailto:{{site.emailid}}">Email</a> </p>
-<p> <i class="fas fa-phone"></i> <a href="tel:{{site.contactnumber}}" class="phone-link">{{site.contactnumber}}</a></p>
+<p> <i class="fas fa-phone"></i> <a href="tel:{{ site.contactnumber }}" class="phone-link">{{site.contactnumber}}</a></p>
 <p> <i class="fab fa-facebook"></i> <a href="{{ site.fburl }}" > Facebook </a> </p>
 <p> <i class="fab fa-instagram"></i> <a href="{{ site.instaurl }}" > Instagram </a> </p>
 
