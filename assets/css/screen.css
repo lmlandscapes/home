@@ -341,7 +341,12 @@ span.post-read-more a:hover {
 .mainheading h5.call-us {
     color: rgba(54, 161, 35, 0.8);
     /* font-size: 0.8rem; */
-    font-family: Righteous;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
 }
 
 .mainheading h1.posttitle {
