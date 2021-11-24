@@ -313,7 +313,7 @@ span.post-read-more a:hover {
     /* font-size: 0.8rem; */
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
