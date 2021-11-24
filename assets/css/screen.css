@@ -308,6 +308,12 @@ span.post-read-more a:hover {
     font-family: Righteous;
 }
 
+.mainheading h1.ticks {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color: rgba(13, 36, 9, 0.8);
+    text-align: right;
+}
+
 .mainheading h1.posttitle {
     font-weight: 700;
     margin-bottom: 1rem;
