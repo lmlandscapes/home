@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact Us
-permalink: /contactus
+title: Free Quote
+permalink: /freequote
 comments: false
 ---
 
