@@ -93,6 +93,16 @@ section.recent-posts {
     text-align: center
 }
 
+.whatsapp-chat-button {
+    background-color: #075E54;
+    text-align: center
+}
+
+.fb-chat-button {
+    background-color: #4267B2;
+    text-align: center
+}
+
 .article-post ol ol,
 .article-post ul ul {
     list-style: disc;
