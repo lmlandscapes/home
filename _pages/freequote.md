@@ -13,9 +13,6 @@ comments: false
     <label for="name" class="col-4 col-form-label">Name</label>
     <div class="col-8">
       <div class="input-group">
-        <div class="input-group-addon">
-          <i class="fa fa-user"></i>
-        </div>
         <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
       </div>
     </div>
@@ -24,10 +21,15 @@ comments: false
     <label for="email" class="col-4 col-form-label">E-mail address</label>
     <div class="col-8">
       <div class="input-group">
-        <div class="input-group-addon">
-          <i class="fa fa-envelope"></i>
-        </div>
         <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="postcode" class="col-4 col-form-label">Post Code</label>
+    <div class="col-8">
+      <div class="input-group">
+        <input id="postcode" name="postcode" placeholder="Your Post Code" type="text" required="required" class="form-control">
       </div>
     </div>
   </div>
