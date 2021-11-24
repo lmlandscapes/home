@@ -12,11 +12,21 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 a {
-    color: lightyellow;
+    color: #00ab6b;
     transition: all 0.2s;
 }
 
 a:hover {
+    color: #038252;
+    text-decoration: none;
+}
+
+.a-menu {
+    color: lightyellow;
+    transition: all 0.2s;
+}
+
+.a-menu:hover {
     color: navajowhite;
     text-decoration: none;
 }
