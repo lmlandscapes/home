@@ -19,14 +19,14 @@ comments: false
     </div>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">Tell us more about your job</label>
     <div class="col-8">
       <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
     </div>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">Post Code</label>
     <div class="col-8">
       <div class="input-group">
@@ -35,7 +35,7 @@ comments: false
     </div>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">First Name</label>
     <div class="col-8">
       <div class="input-group">
@@ -44,7 +44,7 @@ comments: false
     </div>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">Last Name</label>
     <div class="col-8">
       <div class="input-group">
@@ -53,7 +53,7 @@ comments: false
     </div>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">Email Address</label>
     <div class="col-8">
       <div class="input-group">
@@ -62,7 +62,7 @@ comments: false
     </div>
   </div>
 
-  <div class="form-group row">
+  <div class="form-group row" style="color: #00ab6b">
     <label for="name" class="col-4 col-form-label">Phone Number</label>
     <div class="col-8">
       <div class="input-group">
