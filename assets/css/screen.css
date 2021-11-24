@@ -83,6 +83,10 @@ section.recent-posts {
     margin-bottom: 1.5rem;
 }
 
+.call-us {
+    background-color:limegreen;
+    text-align: center
+}
 .article-post ol ol,
 .article-post ul ul {
     list-style: disc;
