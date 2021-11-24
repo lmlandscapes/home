@@ -310,6 +310,7 @@ span.post-read-more a:hover {
 
 .mainheading h1.ticks {
     color: rgba(54, 161, 35, 0.8);
+    font-size: 0.8rem;
     text-align: right;
 }
 
