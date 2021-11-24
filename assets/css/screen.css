@@ -314,8 +314,8 @@ span.post-read-more a:hover {
     position: absolute;
     left: 50%;
     top: auto;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    /* -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .mainheading h5.free-quote {
