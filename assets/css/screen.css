@@ -83,10 +83,18 @@ section.recent-posts {
     margin-bottom: 1.5rem;
 }
 
-.call-us {
+.call-us-button {
     background-color:limegreen;
+    color: lightgoldenrodyellow;
     text-align: center
 }
+
+.request-quote-button {
+    background-color: indianred;
+    color: lightyellow;
+    text-align: center
+}
+
 .article-post ol ol,
 .article-post ul ul {
     list-style: disc;
