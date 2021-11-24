@@ -7,6 +7,8 @@ logoheader: 'assets/images/logolmheader.png'
 logofooter: 'assets/images/logolmfooter.png'
 logofreequote: 'assets/images/freequote.png'
 favicon: 'assets/images/favicon.ico'
+emailid: 'lloyd-1994@hotmail.com'
+contactnumber: '07960 207730'
 baseurl: "/home"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
