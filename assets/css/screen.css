@@ -403,6 +403,7 @@ span.post-read-more a:hover {
 .services {
     color: olivedrab;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
 }
 .article-post {
     font-family: Merriweather;
