@@ -405,6 +405,17 @@ span.post-read-more a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8rem;
 }
+
+.whyus {
+    position: relative;
+    text-align: center;
+}
+.whyustext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(120%, 0%);
+}
 .article-post {
     font-family: Merriweather;
     font-size: 1.1rem;
