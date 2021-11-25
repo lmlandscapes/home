@@ -113,6 +113,16 @@ section.recent-posts {
     text-align: center
 }
 
+.fb-button {
+    background-color: #4267B2;
+    text-align: center
+}
+
+.insta-button {
+    background-color: #8a3ab9;
+    text-align: center
+}
+
 .article-post ol ol,
 .article-post ul ul {
     list-style: disc;
