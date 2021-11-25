@@ -1,0 +1,267 @@
+---
+layout: default
+title: Home
+image_sliders:
+  - slider2
+---
+
+
+{% if page.url == "/" %}
+
+<!-- Slideshow
+================================================== -->
+{% include slider.html selector="slider2" %}
+
+<!-- Services
+================================================== -->
+<a class="anchor" id="why-us"></a>
+<section class="why=us">
+    <div class="section-title">
+        <h2><span>Why Us?</span></h2>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mb-30px">
+            <div class="listfeaturedtag h-100">
+                <div class="row h-100">
+                    <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
+                        <div class="h-100">
+                            <div class="wrapthumbnail">
+                                <img src="{{ site.baseurl }}/{{ site.whyusimage }}" alt="{{ site.name }}"> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-7">
+                        <div class="h-100 card-group">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                        We deliver our promise
+                                        
+                                        <div class="mb-2 mt-2 font-weight-normal">
+                                            <div class="rating-holder">
+                                                <div class="c-rating c-rating--regular" data-rating-value="5">
+                                                  <button>1</button>
+                                                  <button>2</button>
+                                                  <button>3</button>
+                                                  <button>4</button>
+                                                  <button>5</button>
+                                                </div>
+                                                </div>
+                                        </div>
+                                        
+                                    </h2>
+        
+                                    <h4 class="card-text">
+                                        We are the best in Essex. We have always delivered beyond the customers' expectations. We are friendly, honest and above all, we are reliable. 
+                                        </br>
+                                        We inspect your property, give you a quote. Our quote is a promise that we will deliver. No compromises. 
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services
+================================================== -->
+<a class="anchor" id="services"></a>
+<section class="our-services">
+    <div class="section-title">
+        <h2><span>Our Services</span></h2>
+    </div>
+    <div class="row">
+        <div class="services col-md-6 pr-5">
+            <ul>
+                <li>&#10004; Garden Design</li>
+                <li>&#10004; Landscape Gardening</li>
+                <li>&#10004; Fencing and Decking</li>
+                <li>&#10004; Brickwork & Walls</li>
+                <li>&#10004; Bedding & Plant Supply</li>
+                <li>&#10004; Laying New Lawns</li>
+                <li>&#10004; Turf & Artificial Grass</li>
+                <li>&#10004; Outdoor Lighting</li>
+            </ul>
+        </div>
+        <div class="services col-md-6 pr-5">
+            <ul>
+                <li>&#10004; Seeding & Planting</li>
+                <li>&#10004; Weeding & Pruning</li>
+                <li>&#10004; Lawn Treatments</li>
+                <li>&#10004; Mowing, Edging & Aeration</li>
+                <li>&#10004; Water Features & Ponds</li>
+                <li>&#10004; Tree Surgery</li>
+                <li>&#10004; Stump Grinding & Removal</li>
+                <li>&#10004; All Other Landscaping Work</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<a class="anchor" id="freequote"></a>
+<section class="featured-posts"></section>
+    <div class="section-title">
+        <h2><span>Request for a quote</span></h2>
+    </div>
+    <div class="row">
+        <div class="col-md-12 pr-5">
+
+            <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
+
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Job Summary</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="jobtype" name="jobtype" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Tell us more about your job</label>
+                    <div class="col-8">
+                        <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Post Code</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="postcode" name="postcode" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">First Name</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="firstname" name="firstname" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <label for="name" class="col-4 col-form-label">Last Name</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="lastname" name="lastname" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Email Address</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="email" name="email" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Phone Number</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="phone" name="phonee" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <div class="offset-4 col-8">
+                        <button name="submit" type="submit" class="btn btn-primary" style="background-color: olivedrab" >Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<a class="anchor" id="contactus"></a>
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Contact Us</span></h2>
+    </div>
+    <div class="row">
+        <!-- <p> <i class="fas fa-envelope"></i> <a href="mailto:{{site.emailid}}">Email</a> </p>
+        <p> <i class="fas fa-phone"></i> <a href="tel:{{ site.contactnumber }}" class="phone-link">{{site.contactnumber}}</a></p>
+        <p> <i class="fab fa-facebook"></i> <a href="{{ site.fburl }}" > Facebook </a> </p>
+        <p> <i class="fab fa-instagram"></i> <a href="{{ site.instaurl }}" > Instagram </a> </p> -->
+
+        <div class="col-xs-3 col-sm-3 col-md-3 call-us-button">
+            <a class="a-menu" href="tel:{{ site.contactnumber }}"><i class="fas fa-phone"></i> Call Us</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 fb-chat-button">
+            <a class="a-menu" href="http://m.me/{{ site.fbpageid }}"><i class="fab fa-facebook-messenger"></i> Messenger </a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 whatsapp-chat-button">
+            <a class="a-menu" href="https://wa.me/{{ site.whatsappnumber }}?text={{ site.whatsappdefaultext }}"><i class="fab fa-whatsapp"></i> Whatsapp </a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 request-quote-button">
+            <!-- <a class="a-menu" href="{{ site.baseurl }}/freequote"><i class="fas fa-receipt"></i> Request for a Quote</a> -->
+            <a class="a-menu" href="#freequote"><i class="fas fa-receipt"></i> Request for a Quote</a>
+        </div>
+    </div>
+</section>
+
+<!-- Featured
+================================================== -->
+<a class="anchor" id="featuredposts"></a>
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>What we do</span></h2>
+    </div>
+    <div class="row">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+</section>
+
+{% endif %}
+
+<!-- Posts Index
+================================================== -->
+<a class="anchor" id="recentposts"></a>
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>All Stories</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+            {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>
+
