@@ -152,6 +152,13 @@ section.recent-posts {
     margin-bottom: 0rem;
 }
 
+@media (max-width: 991px) {
+    .d-tablet-none {
+        display:none !important
+    }
+}
+
+
 @media (min-width:576px) {
     .card-columns.listfeaturedtag {
         -webkit-column-count: 2;
