@@ -239,9 +239,9 @@ image_sliders:
 
         <div class="row listrecent">
 
-            {% for feedback in paginator.posts %}
+            {% for post in paginator.posts %}
 
-                {% include feedback.html %}
+                {% include postbox.html %}
 
             {% endfor %}
 
