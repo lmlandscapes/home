@@ -6,7 +6,7 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/10.jpg
 featured: true
 hidden: true
-rating: 4.5
+rating: 5
 ---
 
 We maintain your property. We do landscaping, we do seascaping, we do skyscaping. We belong to Marvel Universe. 
