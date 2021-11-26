@@ -16,6 +16,7 @@ a {
     transition: all 0.2s;
 }
 
+
 a:hover {
     color: #038252;
     text-decoration: none;
@@ -29,6 +30,12 @@ a:hover {
 .a-menu:hover {
     color: navajowhite;
     text-decoration: none;
+}
+
+b {
+    color: rgb(67, 90, 21);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 pre {
