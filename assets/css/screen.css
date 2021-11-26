@@ -159,10 +159,11 @@ section.recent-posts {
     margin-bottom: 0rem;
 }
 
-.d-desktop-none {
-    display:none !important
+@media (min-width: 991px) {
+    .d-desktop-none {
+        display:none !important
+    }
 }
-
 @media (max-width: 991px) {
     .d-tablet-none {
         display:none !important
