@@ -165,6 +165,9 @@ section.recent-posts {
     .d-tablet-none{
         display:none !important
     }
+    .d-table-show{
+        display:block !important
+    }
 }
 
 @media (min-width:576px) {
