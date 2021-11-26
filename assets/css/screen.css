@@ -100,65 +100,113 @@ section.recent-posts {
     margin-bottom: 1.5rem;
 }
 .top-why-us-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color:rgb(49, 69, 185);
     text-align: center;
     /* display: none !important */
 }
 
 .top-our-services-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color:rgb(93, 32, 99);
     text-align: center;
     /* display: none !important */
 }
 
 .top-request-quote-button{
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color: indianred;
     text-align: center;
     /* display: none !important */
 }
 
 .top-contact-us-button {
+    border-color: white;
+    border-style: solid;
+    background-color: limegreen;
+    text-align: center;
+}
+
+.top-contact-us-button-mobile {
     border-radius: 25px;
     background-color: limegreen;
     text-align: center;
 }
 
 .call-us-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color:limegreen;
     text-align: center
 }
 
 .request-quote-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color: indianred;
     text-align: center
 }
 
 .whatsapp-chat-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color: #075E54;
     text-align: center
 }
 
 .fb-chat-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color: #4267B2;
     text-align: center
 }
 
 .fb-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color: #4267B2;
     text-align: center
 }
 
 .insta-button {
-    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
     background-color: #8a3ab9;
+    text-align: center
+}
+
+.call-us-button-mobile {
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    background-color:limegreen;
+    text-align: center
+}
+
+.request-quote-button-mobile {
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: indianred;
+    text-align: center
+}
+
+.whatsapp-chat-button-mobile {
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #075E54;
+    text-align: center
+}
+
+.fb-chat-button-mobile {
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #4267B2;
     text-align: center
 }
 
@@ -175,7 +223,7 @@ section.recent-posts {
     .d-tablet-none{
         display:none !important
     }
-    .d-table-show{
+    .d-tablet-show{
         display:block !important
     }
 }
