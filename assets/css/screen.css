@@ -158,7 +158,7 @@ section.recent-posts {
     margin-bottom: 0rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 800px) {
     .d-desktop-none {
         display:block !important
     }
