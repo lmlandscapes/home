@@ -185,12 +185,7 @@ image_sliders:
     <div class="section-title">
         <h2><span>Contact Us</span></h2>
     </div>
-    <div class="row">
-        <!-- <p> <i class="fas fa-envelope"></i> <a href="mailto:{{site.emailid}}">Email</a> </p>
-        <p> <i class="fas fa-phone"></i> <a href="tel:{{ site.contactnumber }}" class="phone-link">{{site.contactnumber}}</a></p>
-        <p> <i class="fab fa-facebook"></i> <a href="{{ site.fburl }}" > Facebook </a> </p>
-        <p> <i class="fab fa-instagram"></i> <a href="{{ site.instaurl }}" > Instagram </a> </p> -->
-
+    <div class="row d-tablet-none">
         <div class="col-xs-3 col-sm-3 col-md-3 call-us-button">
             <a class="a-menu" href="tel:{{ site.contactnumber }}"><i class="fas fa-phone"></i> Call Us</a>
         </div>
@@ -211,6 +206,22 @@ image_sliders:
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 fb-button"> 
             <a class="a-menu" href="{{ site.fburl }}"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+    </div>
+
+
+    <div class="row d-desktop-none d-table-show">
+        <div class="col-xs-3 col-sm-3 col-md-3 call-us-button">
+            <a class="a-menu" href="tel:{{ site.contactnumber }}"><i class="fas fa-phone"></i></a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 fb-chat-button">
+            <a class="a-menu" href="http://m.me/{{ site.fbpageid }}"><i class="fab fa-facebook-messenger"></i></a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 whatsapp-chat-button">
+            <a class="a-menu" href="https://wa.me/{{ site.whatsappnumber }}?text={{ site.whatsappdefaultext }}"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 request-quote-button">
+            <a class="a-menu" href="mailto:{{site.emailid}}"><i class="fas fa-envelope"></i></a>
         </div>
     </div>
 
