@@ -457,6 +457,12 @@ span.post-read-more a:hover {
     font-size: 2rem;
 }
 
+.header-text-call {
+    color: olivedrab;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+}
+
 .ticks {
     color: olivedrab;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
