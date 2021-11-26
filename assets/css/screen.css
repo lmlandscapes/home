@@ -92,6 +92,28 @@ section.recent-posts {
 .article-post ul {
     margin-bottom: 1.5rem;
 }
+.top-why-us-button {
+    background-color:rgb(49, 69, 185);
+    text-align: center;
+    display: none !important
+}
+
+.top-our-services-button {
+    background-color:rgb(93, 32, 99);
+    text-align: center;
+    display: none !important
+}
+
+.top-request-quote-button{
+    background-color: indianred;
+    text-align: center;
+    display: none !important
+}
+
+.top-contact-us-button {
+    background-color: limegreen;
+    text-align: center;
+}
 
 .call-us-button {
     background-color:limegreen;
