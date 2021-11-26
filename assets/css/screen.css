@@ -444,6 +444,12 @@ span.post-read-more a:hover {
     color: rgba(0, 0, 0, .8);
 }
 
+.ticks {
+    color: olivedrab;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
 .services {
     color: olivedrab;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
