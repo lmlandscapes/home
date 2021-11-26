@@ -76,6 +76,10 @@ section {
     margin-bottom: 20px;
 }
 
+section.client-fedback {
+    margin-bottom: 0;
+}
+
 section.recent-posts {
     margin-bottom: 0;
 }
