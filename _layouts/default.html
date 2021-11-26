@@ -61,33 +61,33 @@
                 <!-- End Logo -->
                 <div class="collapse navbar-collapse" id="navbarMediumish">
                     <!-- Begin Menu -->
-                        <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto">
 
-                            {% if page.url == "/" %}
-                                <li class="nav-item active">
-                            {% else %}
-                                <li class="nav-item">
-                            {% endif %}
-                                <a class="nav-link" href="{{ site.baseurl }}/index.html"><i class="fab fa-home"></i> Home</a>
-                            </li>
-
+                        {% if page.url == "/" %}
+                            <li class="nav-item active">
+                        {% else %}
                             <li class="nav-item">
-                                <a target="_blank" class="nav-link" href="tel:{{ site.contactnumber }}"><i class="fas fa-phone"></i> Call Us </a>
-                            </li>
+                        {% endif %}
+                            <a class="nav-link" href="{{ site.baseurl }}/index.html"><i class="fab fa-home"></i> Home</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a target="_blank" class="nav-link" href="http://m.me/{{ site.fbpageid }}"><i class="fab fa-facebook-messenger"></i> Messenger </a>
-                            </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" href="tel:{{ site.contactnumber }}"><i class="fas fa-phone"></i> Call Us </a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a target="_blank" class="nav-link" href="https://wa.me/{{ site.whatsappnumber }}?text={{ site.whatsappdefaultext }}"><i class="fab fa-whatsapp"></i> Whatsapp </a>
-                            </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" href="http://m.me/{{ site.fbpageid }}"><i class="fab fa-facebook-messenger"></i> Messenger </a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contactus"><i class="fab fa-about"></i>Contact Us</a>
-                            </li>
-                            <!-- {% include search-lunr.html %} -->
-                        </ul>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" href="https://wa.me/{{ site.whatsappnumber }}?text={{ site.whatsappdefaultext }}"><i class="fab fa-whatsapp"></i> Whatsapp </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus"><i class="fab fa-about"></i>Contact Us</a>
+                        </li>
+                        <!-- {% include search-lunr.html %} -->
+                    </ul>
                     <!-- End Menu -->
                 </div>
 
