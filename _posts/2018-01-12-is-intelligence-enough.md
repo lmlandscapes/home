@@ -1,4 +1,5 @@
 ---
+reviewsummary: Great Attention to Detail
 layout: post
 title:  "External Featured Image"
 author: sal
