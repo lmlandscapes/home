@@ -157,7 +157,12 @@ section.recent-posts {
     list-style: disc;
     margin-bottom: 0rem;
 }
-
+.d-tablet-none {
+    display:none !important
+}
+.d-desktop-none {
+    display:block !important
+}
 @media (max-width: 991px) {
     .d-tablet-none {
         display:none !important
