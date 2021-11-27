@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Amazing Work"
-author: sal
+author: Harry
 categories: [ Jekyll ]
 image: assets/images/14.jpg
 rating: 5
