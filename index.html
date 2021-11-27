@@ -225,36 +225,35 @@ image_sliders:
                 </div>
         </div>    
     </div>
-
-    <!-- Posts Index
-    ================================================== -->
-    <a class="anchor" id="reviews"></a>
-    <section class="client-fedback">
-
-        <div class="section-title">
-
-            <h2><span>Feedback</span></h2>
-
-        </div>
-
-        <div class="row listrecent">
-
-            {% for post in site.posts %}
-
-                {% include feedback.html %}
-
-            {% endfor %}
-
-        </div>
-
-    </section>
-
-    <!-- Pagination
-    ================================================== -->
-    <div class="bottompagination">
-    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
-    <span class="navigation" role="navigation">
-        {% include pagination.html %}
-    </span>
 </section>
+
+<!-- Posts Index
+================================================== -->
+<a class="anchor" id="reviews"></a>
+<section class="client-fedback">
+
+    <div class="section-title">
+        <h2><span>Feedback</span></h2>
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+            {% include feedback.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+
 
