@@ -122,6 +122,14 @@ section.recent-posts {
 .top-request-quote-button{
     border-color: white;
     border-style: solid;
+    background-color: rgb(118, 134, 59);
+    text-align: center;
+    /* display: none !important */
+}
+
+.top-client-feedback-button{
+    border-color: white;
+    border-style: solid;
     background-color: indianred;
     text-align: center;
     /* display: none !important */
