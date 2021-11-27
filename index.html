@@ -125,7 +125,7 @@ image_sliders:
     <div class="section-title-tablet d-desktop-none d-tablet-show">
         <h2><span>Request for a quote</span></h2>
     </div>
-    <div class="row">
+    <div class="row d-tablet-none">
         <div class="col-md-12 pr-5">
 
             <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
@@ -199,6 +199,66 @@ image_sliders:
             </form>
         </div>
     </div>
+
+    <div class="row d-desktop-none d-tablet-show">
+        <div class="col-md-12 pr-5">
+
+            <form method="post" action="https://forms.un-static.com/forms/{{ site.contactusendpointreference }}">
+
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Job Summary</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="jobtype" name="jobtype" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Post Code</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="postcode" name="postcode" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Name</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="name" name="name" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Email Address</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="email" name="email" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <label for="name" class="col-4 col-form-label">Phone Number</label>
+                    <div class="col-8">
+                        <div class="input-group">
+                            <input id="phone" name="phonee" type="text" required="required" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group row" style="font-size: 0.8rem; color: olivedrab; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <div class="offset-4 col-8">
+                        <button name="submit" type="submit" class="btn btn-primary" style="background-color: olivedrab" >Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
 </section>
 
 
