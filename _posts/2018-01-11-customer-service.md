@@ -1,7 +1,6 @@
 ---
-reviewsummary: "Exceeded Expectations"
 layout: post
-title:  "Inception Movie"
+title:  "Exceeded Expectations"
 author: john
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
