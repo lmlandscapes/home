@@ -39,7 +39,7 @@
     - src: /assets/slideshow/B5.jpg
       title: Patio
   settings:
-    height: "400"
+    height: "'auto'"
     effect: "'fade'"
 
 - selector: slider3
