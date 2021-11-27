@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About Bundler"
+title:  "5 Star Guys"
 author: sal
 categories: [ Jekyll ]
 image: assets/images/2.jpg
