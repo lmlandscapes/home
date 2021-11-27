@@ -209,33 +209,34 @@ image_sliders:
 <!-- Feedback Index
 ================================================== -->
 <a class="anchor" id="reviews"></a>
-<section class="client-fedback d-tablet-none">
-    <div class="section-title">
-        <h2><span>Feedback</span></h2>
-    </div>
+<div class = "d-tablet-none">
+    <section class="client-fedback">
+        <div class="section-title">
+            <h2><span>Feedback</span></h2>
+        </div>
 
-    <div class="row listrecent">
+        <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+            {% for post in paginator.posts %}
 
-            {% include feedback.html %}
+                {% include feedback.html %}
 
-        {% endfor %}
+            {% endfor %}
 
-    </div>
+        </div>
 
-    <!-- Feed back in mobile section to be added -->
+        <!-- Feed back in mobile section to be added -->
 
-</section>
+    </section>
 
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-
+    <!-- Pagination
+    ================================================== -->
+    <div class="bottompagination">
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
+        {% include pagination.html %}
+    </span>
+</div>
 
 <a class="anchor" id="contactus"></a>
 <section class="featured-posts">
