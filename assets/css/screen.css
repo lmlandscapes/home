@@ -122,7 +122,8 @@ section.recent-posts {
     border-style: solid;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-color:rgb(49, 69, 185);
+    /* background-color:rgb(49, 69, 185); */
+    background-color: rgb(154, 151, 148)
     text-align: center;
     /* display: none !important */
 }
@@ -130,7 +131,8 @@ section.recent-posts {
 .top-our-services-button {
     border-color: white;
     border-style: solid;
-    background-color:rgb(93, 32, 99);
+    /* background-color:rgb(93, 32, 99); */
+    background-color: rgb(154, 151, 148)
     text-align: center;
     /* display: none !important */
 }
@@ -138,7 +140,8 @@ section.recent-posts {
 .top-request-quote-button{
     border-color: white;
     border-style: solid;
-    background-color: indianred;
+    /* background-color: indianred; */
+    background-color: rgb(154, 151, 148)
     text-align: center;
     /* display: none !important */
 }
@@ -146,7 +149,8 @@ section.recent-posts {
 .top-client-feedback-button{
     border-color: white;
     border-style: solid;
-    background-color: rgb(118, 134, 59);
+    /* background-color: rgb(118, 134, 59); */
+    background-color: rgb(154, 151, 148)
     text-align: center;
     /* display: none !important */
 }
@@ -156,7 +160,8 @@ section.recent-posts {
     border-style: solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: limegreen;
+    /* background-color: limegreen; */
+    background-color: rgb(154, 151, 148)
     text-align: center;
 }
 
