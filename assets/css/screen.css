@@ -27,6 +27,16 @@ a:hover {
     transition: all 0.2s;
 }
 
+.a-footer-menu {
+    color: rgb(230, 241, 200);
+    transition: all 0.2s;
+}
+
+.a-footer-menu:hover {
+    color: rgb(158, 155, 134);
+    text-decoration: none;
+}
+
 .a-menu:hover {
     color: rgb(52, 150, 52);
     text-decoration: none;
