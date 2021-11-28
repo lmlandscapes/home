@@ -23,12 +23,12 @@ a:hover {
 }
 
 .a-menu {
-    color: lightyellow;
+    color: rgb(27, 65, 27);
     transition: all 0.2s;
 }
 
 .a-menu:hover {
-    color: navajowhite;
+    color: rgb(52, 150, 52);
     text-decoration: none;
 }
 
